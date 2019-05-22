@@ -36,6 +36,7 @@ public class AreaServiceImpl implements AreaService {
 			JsonMappingException, IOException {
 		System.out.println("you are abb");
 		System.out.println("you are boo");
+		System.out.println("edit hot_fix branch");
 		String key = AREALISTKEY;
 		List<Area> areaList = null;
 		ObjectMapper mapper = new ObjectMapper();
